@@ -9,7 +9,7 @@ export const web = new sst.aws.StaticSite("Web", {
     output: "dist",
     command: "npm run build",
   },
-  domain: $app.stage === "production" ? "harmony-maintenance.com" : undefined,
+  domain: $app.stage === "production" ? "gardener-mobile.com" : undefined,
   environment: {
     VITE_REGION: region,
     VITE_API_URL: api.url,

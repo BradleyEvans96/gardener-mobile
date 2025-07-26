@@ -3,7 +3,7 @@
 export default $config({
   app(input) {
     return {
-      name: "harmony-maintenance",
+      name: "gardener-mobile",
       region: "eu-west-2",
       removal: input?.stage === "production" ? "retain" : "remove",
       home: "aws",

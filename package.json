@@ -1,12 +1,13 @@
 {
-  "name": "harmony-maintenance",
+  "name": "gardener-mobile",
   "version": "0.0.0",
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
     "dev": "sst dev",
-    "deploy": "sst deploy"
+    "deploy": "sst deploy",
+    "remove": "sst remove"
   },
   "devDependencies": {
     "@tsconfig/node20": "^20.1.4",

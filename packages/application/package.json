@@ -1,0 +1,13 @@
+{
+  "name": "@gardener-mobile/application",
+  "version": "0.0.0",
+  "dependencies": {
+    "@aws-lambda-powertools/logger": "^2.24.0",
+    "@aws-sdk/lib-dynamodb": "^3.850.0",
+    "@aws-sdk/util-dynamodb": "^3.848.0",
+    "sst": "*"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.137"
+  }
+}
